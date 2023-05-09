@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>JavaScript - Calculadora</title>
+ <script src="./tuto.js" defer></script>
+ <style>
+  body{
+   color: aliceblue;
+  }
+  .calcu{
+   font-family: sans-serif;
+   text-align: center;
+   width: 80%;
+   max-width: 500px;
+   margin: auto;
+   padding: 20px;
+   background-color: rgb(12, 205, 45);
+   border-radius: 20px;   
+   box-shadow: 5px 5px 5px #271d1dfe;
+  }
+  input{
+   display: block;
+   margin: auto;
+   margin-bottom: 20px;
+   padding: 10px;
+   border-radius: 9px;  
+   box-shadow: 5px 5px 5px #271d1dfe;
+  }
+  p{
+   display: block;
+   margin: auto;
+   margin-bottom: 20px;
+   padding: 10px;
+   border-radius: 9px;  
+   box-shadow: 5px 5px 5px #271d1dfe;
+   background: #f4f6f7fe;
+   color: aliceblue;
+  }
+  a{
+   color: #04435afe;
+   text-decoration: none;
+  }
+  a:hover{
+   font-size: larger;
+  }
+ </style>
+</head>
+<body>
+ <form class="calcu" action="" method="dialog">
+  <h1>Calculadora en HTML</h1>
+  <input type="text" id="op1" placeholder="operador 1">
+  <input type="text" id="operacion" placeholder="*, /, +, -">
+  <input type="text" id="op2" placeholder="operador 3">
+  <input type="submit" value="Calcular" id="calcular">
+  <p id="resultado"></p>
+
+ </form>
+ <br><br>
+ <a href="https://www.youtube.com/watch?v=bmGPv687toc">Referencia: Aprende JavaScript en 60 minutos</a>
+</body>
+</html>
