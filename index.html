@@ -8,16 +8,17 @@
  <script src="./tuto.js" defer></script>
  <style>
   body{
-   color: aliceblue;
+   color: rgb(235, 238, 243);
   }
   .calcu{
    font-family: sans-serif;
    text-align: center;
    width: 80%;
-   max-width: 500px;
+   max-width: 300px;
    margin: auto;
    padding: 20px;
-   background-color: rgb(12, 205, 45);
+   background: rgb(34,193,195);
+   background: linear-gradient(209deg, rgba(34,193,195,1) 11%, rgba(253,187,45,1) 100%);
    border-radius: 20px;   
    box-shadow: 5px 5px 5px #271d1dfe;
   }
@@ -36,32 +37,36 @@
    padding: 10px;
    border-radius: 9px;  
    box-shadow: 5px 5px 5px #271d1dfe;
-   background: #f4f6f7fe;
-   color: aliceblue;
+   background: #0b6c9dfe;
+   
   }
-  p a{
+  span{
+   display: block;
+   width: 100%;   
+   margin: auto;
+   text-align: center;
+  }  
+  a{
    color: #04435afe;
    text-decoration: none;
-   margin: auto;
+
   }
-  p a:hover{
+  a:hover{
    font-size: larger;
   }
  </style>
 </head>
 <body>
  <form class="calcu" action="" method="dialog">
-  <h1>CALCULADORA</h1>
-  <h3>Realizada en Javascript&HTML</h3>
-  
-  <input type="text" id="op1" placeholder="operador 1">
+  <h1>XALCULADORA</h1>
+  <H3>JavaScript & HTML</H3>
+  <input type="text" id="op1" placeholder="número 1">
   <input type="text" id="operacion" placeholder="*, /, +, -">
-  <input type="text" id="op2" placeholder="operador 3">
+  <input type="text" id="op2" placeholder="número 2">
   <input type="submit" value="Calcular" id="calcular">
-  <p id="resultado"></p>
-
+  <p id="resultado">Resultado:</p>
  </form>
- <br><br>
- <p><a href="https://www.youtube.com/watch?v=bmGPv687toc">Referencia: Aprende JavaScript en 60 minutos</a></p>
-</body>
+ <br><br>  
+ <span><a href="https://www.youtube.com/watch?v=bmGPv687toc">Referencia: Aprende JavaScript en 60 minutos</a></span>
+ </body>
 </html>

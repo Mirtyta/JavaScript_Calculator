@@ -30,8 +30,8 @@ function calcular(){
     resultado = operador1 / operador2
     break;
   }
-
-  txtResultado.innerText = "Resultado es:" + resultado
+  txtResultado.style.background = "#0b6c9dfe"
+  txtResultado.innerText = "Resultado es: " + resultado
  }else{
   txtResultado.style.backgroundColor="red"
   txtResultado.innerText = "Calculo imposible. Debe colocar números y operadores válidos"
